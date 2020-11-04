@@ -19,6 +19,8 @@
   -[Tests](#tests)
 
   -[Questions](#questions)
+  
+  -[Demonstration](#demonstration)
 
   ## Installation
 
@@ -44,4 +46,16 @@
 
   If you have any questions about the repo, open an issue or contact me directly at egomezfax19@gmail.com. You can find more of my work at [www.github.com/egome019](https://github.com/egome019)
 
+  ## Demonstration
   
+  [Click here](https://sleepy-citadel-62720.herokuapp.com/) to be directed to the application.
+  ![](assets/budgetHome.png)
+  
+  Image below shows app working offline.
+  ![](assets/budgetOffline.png)
+  
+  Image below shows app updating database when back online.
+  ![](assets/budgetOnline.png)
+  
+  Image below shows the data persisting after database is updated.
+  ![](assets/budgetRefresh.png)
