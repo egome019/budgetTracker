@@ -4,7 +4,7 @@ const request = indexedDB.open("budget", 1);
 
 request.onupgradeneeded = function(evt) {
     const db = evt.target.result;
-    db.createObjectStore("pendiing", {autoIncrement: true});
+    db.createObjectStore("pending", {autoIncrement: true});
 };
 
 request.onsuccess = function(evt) {
@@ -44,7 +44,7 @@ function checkDb() {
                     "Content-Type": "application/json"
                 }
             })
-            .then(reesponse => response.json())
+            .then(response => response.json())
             .then(() => {
                 const transaction = db.transaction(["pending"], "readwrite");
 
